@@ -1,37 +1,37 @@
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
-  background-color: #fff7f3;
-  color: #4b2c20;
+  background-color: #fff0f3;
+  color: #4a0f1c;
 }
 
 header {
-  background-color: #f8cfcf;
+  background-color: #f7c8d0;
   text-align: center;
   padding: 20px;
 }
 
-header h1 { color: #4b2c20; }
+header h1 { color: #4a0f1c; }
 
 nav a {
   text-decoration: none;
   margin: 0 15px;
-  color: #4b2c20;
+  color: #4a0f1c;
   font-weight: 600;
 }
 
 nav a.active, nav a:hover {
-  color: #b94e48;
+  color: #d4af37;
 }
 
 .hero {
   text-align: center;
   padding: 60px;
-  background-color: #ffe5d9;
+  background-color: #f9d6dc;
 }
 
 button {
-  background-color: #b94e48;
+  background-color: #8b0015;
   color: white;
   border: none;
   padding: 12px 25px;
@@ -40,7 +40,7 @@ button {
 }
 
 button:hover {
-  background-color: #8e3d3d;
+  background-color: #5e0010;
 }
 
 .products {
@@ -57,7 +57,7 @@ button:hover {
   border-radius: 10px;
   width: 250px;
   text-align: center;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 5px rgba(139, 0, 21, 0.15);
 }
 
 .item img {
@@ -71,10 +71,10 @@ button:hover {
   width: 350px;
   margin: 100px auto;
   text-align: center;
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 8px rgba(139, 0, 21, 0.25);
 }
 
 .auth-container input {
@@ -82,12 +82,12 @@ button:hover {
   margin: 10px 0;
   padding: 10px;
   border-radius: 6px;
-  border: 1px solid #ccc;
+  border: 1px solid #d4af37;
 }
 
 .auth-container button {
   width: 95%;
-  background-color: #b94e48;
+  background-color: #8b0015;
   color: white;
   padding: 10px;
   border: none;
@@ -96,7 +96,7 @@ button:hover {
 }
 
 footer {
-  background-color: #f8cfcf;
+  background-color: #f7c8d0;
   text-align: center;
   padding: 15px;
   margin-top: 30px;
@@ -114,13 +114,13 @@ footer {
 .contact form input,
 .contact form textarea {
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #d4af37;
   border-radius: 6px;
   font-size: 16px;
 }
 
 .contact form button {
-  background-color: #b94e48;
+  background-color: #8b0015;
   color: white;
   border: none;
   padding: 10px;
@@ -130,7 +130,7 @@ footer {
 }
 
 .contact form button:hover {
-  background-color: #8e3d3d;
+  background-color: #5e0010;
 }
 
 .contact-info {
@@ -144,7 +144,7 @@ footer {
   align-items: center;
   justify-content: center;
   padding: 40px;
-  background-color: #fff7f3;
+  background-color: #fff0f3;
 }
 
 .about-content {
@@ -154,7 +154,7 @@ footer {
 }
 
 .about-content h2 {
-  color: #b94e48;
+  color: #8b0015;
   margin-bottom: 15px;
 }
 
@@ -173,7 +173,7 @@ footer {
   width: 100%;
   max-width: 500px;
   border-radius: 15px;
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 3px 8px rgba(139, 0, 21, 0.25);
   transition: transform 0.3s ease;
 }
 
