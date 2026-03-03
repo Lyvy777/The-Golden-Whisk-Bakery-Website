@@ -4,7 +4,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Login - SweetTooth Bakery</title>
+  <title>Login - The Golden Whisk Bakery</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -25,7 +25,7 @@ if (isset($_POST['login'])) {
     $email = $_POST['email'];
     $password = $_POST['password'];
 
-    $query = $conn->query("SELECT * FROM users WHERE email='$email'");
+    $query = $db_link->query("SELECT * FROM users WHERE email='$email'");
     if ($query->num_rows == 1) {
         $user = $query->fetch_assoc();
         if (password_verify($password, $user['password'])) {
