@@ -32,7 +32,7 @@
   <div class="contact-info">
     <h3>Contact Details</h3>
     <p>Email: thegoldenwhiskbakery@gmail.com</p>
-    <p>Phone: +254786190303</p>
+    <p>Phone: +254 786 190 303</p>
     <p>Location: Nairobi, Kenya</p>
   </div>
 </section>
@@ -57,3 +57,4 @@ if (isset($_POST['send'])) {
   }
 }
 ?>
+
