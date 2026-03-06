@@ -19,7 +19,7 @@ The Golden Whisk website simulates an online bakery where users can:
 - Hover effects and interactive buttons
 
 ## Technologies Used
-- Frontend - HTML5, CSS3 (Custom Cherry/Rose theme), JavaScript
+- Frontend - HTML, CSS, JavaScript
 - Backend - PHP (Individualized variable logic)
 - Database - MySQL 
 - Tools - XAMPP, VS Code
