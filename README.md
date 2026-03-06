@@ -55,7 +55,7 @@ CREATE TABLE messages (
 Clone this repository into your htdocs folder for XAMPP users.
 
 ### 4. Running the App
-Navigate to http://localhost/The Golden Whisk/index.html in your web browser.
+Navigate to `https://localhost/The Golden Whisk/index.html` in your web browser.
 
 ## Purpose
 - Created as a web development project.
